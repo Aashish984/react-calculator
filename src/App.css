@@ -1,0 +1,125 @@
+.main-container {
+  height: 100vh;
+  width: 100%;
+  padding-top: 8%;
+  background-image: url('./assets/Img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+
+}
+
+.div-1 {
+  width: 50%;
+  height: 100vh;
+  align-items: center;
+}
+
+.name-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 6px 12px;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.name-tag {
+  animation: fadeIn 1s ease-out;
+}
+
+.quotes-box {
+  width: 100%;
+  font-size: 20px;
+  color: #ffffff;
+  font-style: italic;
+  padding-top: 150px;
+  padding-left: 20px;
+  height: 150px;
+  transition: all 0.3s ease;
+}
+
+.calci {
+  margin-right: 18%;
+  width: 330px;
+  border: 1.5px solid #ffffff;
+  border-radius: 12px;
+}
+
+.display {
+  height: 70px;
+  font-size: 28px;
+  color: aliceblue;
+  padding-top: 25px;
+  padding-right: 40px;
+  background-color: transparent;
+  border: none;
+  text-align: right;
+}
+
+.btnGroup {
+  width: 100%;
+}
+
+.claci-btn {
+  width: 70px;
+  height: 80px;
+  padding-left: 0;
+  margin-top: 3px;
+  margin-left: 5px;
+  font-size: larger;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.claci-btn:hover {
+  color:  #ffffff9a;
+  background-color: #ffffff6b;
+}
+
+.equals {
+  width: 140px;
+  height: 80px;
+  margin-top: 3px;
+  margin-left: 4px;
+  margin-bottom: 8px;
+  font-size: 28px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+
+}
+
+.equals:hover {
+  color: #ffffff9a;
+  background-color: #ffffff6b;
+}
+
+.zero {
+  margin-left: 5px !important;
+}
+
+.operator {
+  font-size: 30px !important;
+}
