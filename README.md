@@ -5,6 +5,9 @@ This template provides a minimal setup to get React working in Vite with HMR and
 # React Calculator 🧮
 A simple and responsive calculator app built with React and Vite.
 
+## 🌐 Live Demo  
+[Click here to try the calculator](https://react-calculator-brown-six.vercel.app)
+
 ## Features
 - Basic arithmetic operations
 - Clean UI
